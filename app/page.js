@@ -1,7 +1,13 @@
+import BlogList from "@/components/client/BlogList";
+import Footer from "@/components/client/Footer";
+import Header from "@/components/client/Header";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Next JS project.</h1>
-    </div>
+    <>
+      <Header />
+      <BlogList />
+      <Footer />
+    </>
   );
 }
