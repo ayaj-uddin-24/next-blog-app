@@ -26,7 +26,7 @@ const Page = () => {
     fetchData();
   }, []);
 
-  // Handle delete function with confirmation
+  // Handle delete function
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this blog post?")) {
       setDeleting(id);

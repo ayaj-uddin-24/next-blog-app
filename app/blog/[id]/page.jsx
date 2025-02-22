@@ -14,7 +14,7 @@ const Page = ({ params }) => {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/api/blog");
+        const res = await axios.get("/api/blog");
         const fetchedData = res.data.blogData.find(
           (blog) => blog._id === params.id
         );
