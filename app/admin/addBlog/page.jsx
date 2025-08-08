@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 const Page = () => {
   const [image, setImage] = useState(null);
   const [imagePreview, setImagePreview] = useState(assets.upload_area);
-  const [loading, setLoading] = useState(false); 
+  const [loading, setLoading] = useState(false);
   const [data, setData] = useState({
     title: "",
     description: "",

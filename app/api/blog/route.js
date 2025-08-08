@@ -4,6 +4,9 @@ import { writeFile } from "fs/promises";
 import blogModel from "@/lib/models/blogModel.js";
 import fs from "fs";
 import path from "path";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 // Database connection
 async function loadDB() {
