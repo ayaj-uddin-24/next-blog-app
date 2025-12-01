@@ -1,5 +1,4 @@
 import Sidebar from "@/components/admin/Sidebar";
-import React from "react";
 
 const layout = ({ children }) => {
   return (

@@ -1,7 +1,8 @@
 "use client";
+
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const [email, setEmail] = useState("");

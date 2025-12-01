@@ -1,10 +1,11 @@
 "use client";
+
 import { assets } from "@/assets/assets";
 import Footer from "@/components/client/Footer";
 import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaFacebookF, FaTwitter, FaGooglePlusG } from "react-icons/fa";
 
 const Page = ({ params }) => {
